@@ -6,10 +6,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
 
 :root{
-  --primary-color: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  --primary-clr: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   --ff-red-rose: 'Red Rose', cursive;
 }
-/* body {
+*{
+  font-family: var(--ff-red-rose);
+}
+html{
+  overflow-x: hidden;
+}
+body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -21,4 +27,15 @@
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-} */
+}
+.Nav{
+  background: var(--primary-clr);
+}
+.Nav.active{
+  left: 30%;
+  transition: all .4s ease;
+}
+
+.Active-nav{
+  border-bottom: 4px solid blue;
+}
