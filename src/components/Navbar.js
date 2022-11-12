@@ -71,7 +71,6 @@ const Navbar = () => {
                 <button
                     type='button'
                     aria-label='Open nav menu'
-                    role='Open'
                     onClick={handleClick}
                     className='relative md:hidden'
                 >
