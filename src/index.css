@@ -29,11 +29,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+img{
+  width: 100%;
+}
 .Nav.active{
-  left: 30%;
+  transform: translateX(20vw);
   transition: all .4s ease;
 }
 
 .Active-nav{
   border-bottom: 4px solid blue;
+}
+.Hero-footer{
+  /* background: linear-gradient( #A02279, #223fa0); */
+  background: linear-gradient(to right, #ec53bc, #e413a2 50%, #223fa0 75%, #223fa0 95%);
+}
+.Hero-footer img{
+  width:40%;
+  margin: auto;
 }
