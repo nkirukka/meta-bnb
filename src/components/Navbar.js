@@ -29,7 +29,7 @@ const Navbar = () => {
     }
     return (
         <>
-            <section className='w-[90%] max-w-[75em] mx-auto my-[2em] flex justify-between relative'>
+            <section className='w-[90%] max-w-[75em] mx-auto my-[2em] flex justify-between items-end relative'>
                 
                 {/* ### NAV LOGO */}
                 <Link
@@ -62,7 +62,7 @@ const Navbar = () => {
                 {/* ### CONNECT WALLET */}
                 <button
                     type='button'
-                    className='bg-[#A02279] px-4 py-2 text-white rounded hover:bg-[#b62989] transition-all whitespace-nowrap'
+                    className='text-xs bg-[#A02279] px-4 py-2 text-white rounded hover:bg-[#b62989] transition-all whitespace-nowrap'
                 >
                     Connect wallet
                 </button>
