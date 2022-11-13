@@ -1,9 +1,13 @@
 import Hero from "../components/Hero";
+import CardContainer from "../components/CardContainer";
+
+
 
 const Home = () => {
   return (
     <>
-    <Hero/>
+      <Hero />
+      <CardContainer/>
     </>
   )
 }

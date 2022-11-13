@@ -27,7 +27,7 @@ const Hero = () => {
                 <div><img src={heroImg} alt='banner' title='Home preview' /></div>
             </div>
 
-            <footer className='flex flex-col mt-10 Hero-footer p-3'>
+            <footer className='flex flex-col mt-10 Hero-footer p-3 bg-[#A02279]'>
                 <img src={mbToken} alt='MB Token' />
                 <img src={metaMask} alt='Meta mask' />
                 <img src={openSea} alt='Open sea' />
