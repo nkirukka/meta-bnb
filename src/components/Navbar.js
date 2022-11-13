@@ -44,7 +44,7 @@ const Navbar = () => {
 
                 {/* ### NAV MENU */}
                 <nav className={`Nav ${btnChange ? 'active' : null} absolute bg-[#A02279] translate-x-[100vw] top-[-2em] text-white w-[80vw] h-[100vh] pt-[6em] px-[1em] text-xl 
-                md:relative md:left-0 md:h-auto md:w-auto md:top-0 md:pt-0 md:text-[#434343] md:bg-transparent`} >
+                md:relative md:translate-x-0 md:h-auto md:w-auto md:top-0 md:pt-0 md:text-[#434343] md:bg-transparent`} >
                     <ul className='flex flex-col gap-8 md:flex-row'>
                         {navItems.map((item) => {
                             return <li key={item.name}>
