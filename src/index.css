@@ -43,11 +43,15 @@ img{
 .Nav{
   background: linear-gradient(to bottom, #70074f, #8d1569f8 50%, rgba(102, 14, 68, 0.555) 75%, rgba(77, 13, 90, 0.733) 95%);
 }
-.Hero-footer{
+/* .Hero-footer{
   /* background: linear-gradient( #A02279, #223fa0); */
-  background: linear-gradient(to right, #ec53bb6b, #11010c 50%, #223fa093 75%, #223fa08c 95%);
-}
+  /* background: linear-gradient(to right, #ec53bb6b, #11010c 50%, #223fa093 75%, #223fa08c 95%); */
 .Hero-footer img{
   width:40%;
   margin: auto;
+}
+@media  only screen and (min-width: 768px) {
+  .Nav{
+    background: white;
+  }
 }
