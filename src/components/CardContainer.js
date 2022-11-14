@@ -21,7 +21,7 @@ const CardContainer = () => {
                 {[...Array(numCard)].map((item, idx) => {
                      return <Card key={idx} src={imgSrc[idx].source} />
                     
-                })};
+                })}
             </div>
             <div className={`flex-row w-[90%] mx-auto flex-wrap hidden md:flex`}>
                 {[...Array(numCard)].map((item, idx) => {
