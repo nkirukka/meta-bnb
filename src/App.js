@@ -2,6 +2,7 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import { Home, PlacesToStay, Nfts, Community } from './pages';
 import Navbar from './components/Navbar';
+import NoMatch from './pages/NoMatch';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path='/places-to-stay' element={ <PlacesToStay/>} />
         <Route path='/nfts' element={ <Nfts/>} />
         <Route path='/community' element={ <Community/>} />
+        <Route path='*' element={ <NoMatch/>} />
    </Routes>
     </div>
   );
