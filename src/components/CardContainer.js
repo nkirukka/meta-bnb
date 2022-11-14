@@ -16,7 +16,7 @@ const CardContainer = () => {
     ];
     return (
         <section className="mt-10">
-            <h3 className="text-center text-2xl font-black mb-5 md:text-3xl">Inspiration for your next adventure</h3>
+            <h3 className="text-center text-2xl font-black my-20 md:text-3xl">Inspiration for your next adventure</h3>
             <div className={`flex flex-row w-[90%] mx-auto flex-wrap`}>
                 {[...Array(numCard)].map((item, idx) => {
                      return <Card key={idx} src={imgSrc[idx].source} />
