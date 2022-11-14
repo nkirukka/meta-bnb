@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const NoMatch = () => {
   return (
-      <section className="h-[50.5vh] text-center pt-20">
+      <section className="h-[50.5vh] text-center pt-20 mb-9">
           <div className='max-w-3xl m-auto'>
               <h2 className='text-9xl text-[#A02279] font-black mb-9'>Oops!</h2>
               <p className='font-black text-xl mb-5'>404 - PAGE NOT FOUND</p>
