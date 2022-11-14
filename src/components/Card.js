@@ -2,7 +2,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/fontawesome-free-solid';
 
-const Card = (src) => {
+const Card = ({src}) => {
 
     const numStars = 5;
     return (
