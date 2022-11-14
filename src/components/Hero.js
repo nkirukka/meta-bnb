@@ -24,13 +24,13 @@ const Hero = () => {
                     </form>
                 </div>
 
-                <div><img src={heroImg} alt='banner' title='Home preview' /></div>
+                <div className='max-w-[400px] mx-auto'><img src={heroImg} alt='banner' title='Home preview' /></div>
             </div>
 
-            <footer className='flex flex-col mt-10 Hero-footer p-3 bg-[#A02279]'>
-                <img src={mbToken} alt='MB Token' />
-                <img src={metaMask} alt='Meta mask' />
-                <img src={openSea} alt='Open sea' />
+            <footer className='flex flex-col max-h-32 mt-10 Hero-footer p-3 bg-[#A02279]'>
+                <img src={mbToken} alt='MB Token' className='' />
+                <img src={metaMask} alt='Meta mask' className='max-w-16' />
+                <img src={openSea} alt='Open sea' className='max-w-16' />
             </footer>
         </section>
     );
