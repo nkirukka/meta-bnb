@@ -62,7 +62,8 @@ const Navbar = () => {
                 {/* ### CONNECT WALLET */}
                 <button
                     type='button'
-                    className='text-xs bg-[#A02279] px-4 py-2 text-white rounded hover:bg-[#b62989] transition-all whitespace-nowrap'
+                    className='text-xs bg-[#A02279] px-4 py-2 text-white rounded hover:bg-[#b62989] transition-all whitespace-nowrap
+                    md:text-lg'
                 >
                     Connect wallet
                 </button>
