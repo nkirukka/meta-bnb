@@ -7,16 +7,18 @@ import walletIcon from '../assets/wallet-connect.png';
 
 const OverlayWallet = () => {
     return (
-        <section>
-            <header>
-                <h4>Connect Wallet</h4>
-                <span><FontAwesomeIcon icon={faClose} /></span>
-            </header>
+        <section className='bg-gray-200'>
+            <div className='bg-white w-[25em] mx-auto rounded-2xl'>
+                <header className='flex w-[100%] justify-between py-4 px-6 border-b border-[#CFD8DC]'>
+                    <h4 className='font-black'>Connect Wallet</h4>
+                    <span><FontAwesomeIcon className='text-[#575454]' icon={faClose} /></span>
+                </header>
 
-            <div>
-                <h5>Choose your preferred wallet:</h5>
-                <Wallet src={foxIcon} alt='Metamask' name='MetaMask' />
-                <Wallet src={walletIcon} alt='Wallet Connect' name='Wallet Connect' />
+                <div className='px-6 py-4' >
+                    <h5 className='text-sm pb-1'>Choose your preferred wallet:</h5>
+                    <Wallet src={foxIcon} alt='Metamask' name='MetaMask' />
+                    <Wallet src={walletIcon} alt='Wallet Connect' name='Wallet Connect' />
+                </div>
             </div>
         </section>
     );
