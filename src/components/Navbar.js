@@ -2,9 +2,11 @@ import { NavLink, Link } from 'react-router-dom';
 import navLogo from '../assets/nav-logo.svg';
 import hamburger from '../assets/icon-hamburger.svg';
 import closeIcon from '../assets/icon-close.svg';
+import OverlayWallet from './OverlayWallet';
 import { useState } from 'react';
 
 const Navbar = () => {
+    const [openModal, setOpenModal] = useState(false);
     const [btnChange, setBtnChange] = useState(false);
     const navItems = [
         {
@@ -26,6 +28,9 @@ const Navbar = () => {
     ]
     const handleClick = () => {
         setBtnChange(!btnChange);
+    }
+    const handleOpenModal = () =>{
+        setOpenModal(true);
     }
     return (
         <>
@@ -62,6 +67,7 @@ const Navbar = () => {
                 {/* ### CONNECT WALLET */}
                 <button
                     type='button'
+                    onClick={handleOpenModal}
                     className='text-xs bg-[#A02279] px-4 py-2 text-white rounded hover:bg-[#b62989] transition-all whitespace-nowrap
                     md:text-lg'
                 >
@@ -81,6 +87,7 @@ const Navbar = () => {
                         className='w-[15px] h-[15px]' />
                 </button>
             </section>
+            {openModal && <OverlayWallet open={ setOpenModal} />}
         </>
     );
 };
