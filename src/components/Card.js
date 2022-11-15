@@ -6,7 +6,7 @@ const Card = ({src}) => {
 
     const numStars = 5;
     return (
-        <article className='my-2 border-2 border-[#D7D7D7] w-[22em] mx-auto rounded-2xl text-sm'>
+        <article className='my-2 border-2 border-[#D7D7D7] w-[22em] mx-auto rounded-2xl text-sm shadow-lg shadow-black'>
             <img src={src} alt='card' className='w-[90%] mx-auto my-4' />
 
             {/* ### DETAILS */}
