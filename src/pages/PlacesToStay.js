@@ -1,13 +1,20 @@
 import Card from "../components/Card";
+import Filter from "../components/Filter";
 
 
 const PlacesToStay = ({srcs}) => {
   return (
-    <div className="flex flex-wrap gap-6 mt-36 mb-28 w-[80%] mx-auto">
+    <section>
+
+      {/* ### FILTER */}
+      <Filter/>
+
+       <div className="flex flex-wrap gap-6 mt-36 mb-28 w-[80%] mx-auto">
       {srcs.map((item) => {
         return <Card key={item} src={item} />
       })}
     </div>
+   </section>
   )
 }
 PlacesToStay.defaultProps = {
