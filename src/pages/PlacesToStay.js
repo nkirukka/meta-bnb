@@ -34,7 +34,7 @@ PlacesToStay.defaultProps = {
     'places-imgs/Frame155.png',
     'places-imgs/Frame156.png',
     'places-imgs/Frame157.png',
-  
+    'places-imgs/Frame150.png',
   ]
 }
 
