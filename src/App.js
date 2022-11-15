@@ -4,7 +4,6 @@ import { Home, PlacesToStay, Nfts, Community } from './pages';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import NoMatch from './pages/NoMatch';
-import OverlayWallet from './components/OverlayWallet';
 
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
       </Routes>
 
       <Footer />
-      <OverlayWallet/>
     </div>
   );
 }
