@@ -12,7 +12,7 @@ const OverlayWallet = (props) => {
     return (
         <section
             onClick={handleClick}
-            className='bg-[#0f00007a] absolute top-0 bottom-0 left-0 right-0 pt-40'>
+            className='bg-[#0f00007a] absolute top-0 bottom-0 left-0 right-0 pt-40 z-10'>
             <div className='bg-white w-[80%] max-w-[25em] mx-auto rounded-2xl'>
                 <header className='flex w-[100%] justify-between py-4 px-6 border-b border-[#CFD8DC]'>
                     <h4 className='font-black'>Connect Wallet</h4>
