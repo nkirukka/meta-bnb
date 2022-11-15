@@ -2,8 +2,8 @@ import settingsIcon from '../assets/settings.svg';
 
 const Filter = () => {
   return (
-      <div className='flex justify-center items-center gap-10 mt-40 w-[80%] mx-auto'>
-          <ul className='flex gap-20'>
+      <div className='flex flex-col justify-end items-end gap-10 mt-40 w-[80%] mx-auto'>
+          <ul className='flex flex-col gap-2'>
               <li>Restaurant</li>
               <li>Cottage</li>
               <li>Castle</li>
