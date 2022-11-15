@@ -8,6 +8,11 @@ const Filter = () => {
         setIsOpen(!isOpen);
     }
 
+    useEffect(() => {
+        if (window.innerWidth >= 768) {
+            setIsOpen(true);
+        }
+    }, [])
     return (
         <div className='flex flex-col justify-end items-end gap-10 mt-40 w-[80%] mx-auto 
         md:justify-center md:items-center md:gap-0 md:-mb-9'>
