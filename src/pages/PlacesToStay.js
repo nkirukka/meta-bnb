@@ -9,7 +9,7 @@ const PlacesToStay = ({srcs}) => {
       {/* ### FILTER */}
       <Filter/>
 
-       <div className="flex flex-wrap gap-6 mt-36 mb-28 w-[80%] mx-auto">
+       <div className="flex flex-wrap gap-6 mt-12 mb-28 w-[80%] mx-auto">
       {srcs.map((item) => {
         return <Card key={item} src={item} />
       })}
