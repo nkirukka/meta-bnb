@@ -5,6 +5,9 @@
 /* Google font: Red Rose */
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
 
+/* Google font: Sora (for Connect Wallet) */ 
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500&display=swap');
+
 :root{
   --primary-clr: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   --ff-red-rose: 'Red Rose', cursive;
